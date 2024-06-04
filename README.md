@@ -114,6 +114,7 @@ rf_classifier.fit(x_train, y_train)
 This Jupyter notebook outlines an analytical exploration of diabetes prediction using Support Vector Machine (SVM). It initiates by preparing the dataset, extracting relevant features while ensuring data integrity by handling missing values appropriately.
 
 ```python
+from sklearn.svm import SVC
 model = SVC(kernel='linear', C=1.0, random_state=42)
 ```
 
@@ -121,10 +122,12 @@ model = SVC(kernel='linear', C=1.0, random_state=42)
 The notebook then provides an interactive interface for users to input patient-specific health parameters. Leveraging the trained XG Boost or KNN model, the notebook predicts whether the patient is likely to have diabetes based on the input data.
 
 ```python
+import xgboost as xgb
 model = xgb.XGBClassifier(random_state=42)
 ```
 
 ```python
+from sklearn.neighbors import KNeighborsClassifier
 model = KNeighborsClassifier()
 ```
 
