@@ -31,7 +31,7 @@ Initially, I extracted raw data from the collected sources, encompassing patient
 </p>
 
 <p align="center">
-  <img src="images/Extract2.png" alt="E2 Image" width="700" height="270">
+  <img src="images/Extract2.png" alt="E2 Image" width="700" height="770">
 </p>
 
 ### Transform
