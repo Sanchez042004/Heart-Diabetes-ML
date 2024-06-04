@@ -62,7 +62,7 @@ Following the ETL process, the preprocessed data underwent normalization to ensu
 
 To evaluate the performance of our models accurately, I split the dataset into training and testing sets. Typically, 70-80% of the data was allocated for training, while the remaining 20-30% was reserved for testing.
 
-## Model Selection
+## Algorithm Selection
 
 ### Logistic Regression
 
