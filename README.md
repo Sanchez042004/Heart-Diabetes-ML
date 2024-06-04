@@ -25,7 +25,7 @@ The ETL (Extract, Transform, Load) process is a critical step in preparing data 
 </p>
 
 ### Installation
-First, we need to install all the project dependencies, these are:
+First, we need to install all the dependencies in the root folder of the project, these are:
 ```console
 pip install pandas
 ```
