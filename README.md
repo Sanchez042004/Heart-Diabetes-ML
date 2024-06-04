@@ -70,19 +70,18 @@ I carefully selected appropriate algorithms, including decision trees and logist
 
 Utilizing the trained models, I implemented disease detection algorithms capable of accurately identifying heart diseases or diabetes based on new patient data.
 
-```console
-Randomly Generated Patient Data: 
-Age = 57
-Sex = F
-ChestPainType = TA
-RestingBP = 150
-Cholesterol = 266
-FastingBS = 1
-RestingECG = Normal
-MaxHR = 135
-ExerciseAngina = N
-OldPeak = 2.0565801286568104
-ST_Slope = Flat
+```markdown
+Enter age: 35
+Enter sex (M/F): M
+Enter chest pain type (ATA/NAP/ASY/TA): ATA
+Enter resting blood pressure: 160
+Enter cholesterol: 211
+Enter fasting blood sugar: 1
+Enter resting ECG (Normal/ST/LVH): ST
+Enter max heart rate: 115
+Enter exercise angina (N/Y): N
+Enter oldpeak: 2.6
+Enter ST Slope (Up/Flat/Down): Down
 Heart Disease Detected
 ```
 
