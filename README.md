@@ -64,8 +64,8 @@ Subsequently, was used the Matplotlib library to generate graphs and visualizati
 
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-  <img src="images/Correlation.png" alt="Correlation Image" style="max-width: 100%; height: auto;">
-  <img src="images/casesBMI.png" alt="Cases Image" style="max-width: 100%; height: auto;">
+  <img src="images/Correlation.png" alt="Correlation Image" style="max-width: 50%; height: auto;">
+  <img src="images/casesBMI.png" alt="Cases Image" style="max-width: 50%; height: auto;">
 </div>
 
 ### Load
