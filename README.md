@@ -13,7 +13,9 @@ To begin the process, we collected extensive patient data and outcomes from vari
 
 ### Extract
 Initially, we extracted raw data from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes.
-
+<p align="center">
+  <img src="Kaggle Heart.png" alt="Kaggle Heart Image" width="700" height="300">
+</p>
 ### Transform
 The extracted data then underwent rigorous transformation processes. This involved cleaning the data by handling missing values and removing irrelevant information. Additionally, we converted categorical data into numerical format for effective analysis.
 
