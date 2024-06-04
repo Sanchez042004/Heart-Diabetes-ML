@@ -70,6 +70,22 @@ I carefully selected appropriate algorithms, including decision trees and logist
 
 Utilizing the trained models, I implemented disease detection algorithms capable of accurately identifying heart diseases or diabetes based on new patient data.
 
+```python
+Randomly Generated Patient Data: 
+Age = 57
+Sex = F
+ChestPainType = TA
+RestingBP = 150
+Cholesterol = 266
+FastingBS = 1
+RestingECG = Normal
+MaxHR = 135
+ExerciseAngina = N
+OldPeak = 2.0565801286568104
+ST_Slope = Flat
+Heart Disease Detected
+```
+
 ## Main Causes of Heart Disease & Diabetes
 
 Understanding the primary risk factors for heart disease and diabetes is crucial for effective prevention and management:
