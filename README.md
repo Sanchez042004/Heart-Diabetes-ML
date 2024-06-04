@@ -31,8 +31,8 @@ The extracted data then underwent rigorous transformation processes. This involv
 Once transformed, the processed data was loaded into the machine learning pipeline, ready for further processing and model development.
 
 <p align="center">
-  <img src="images/Correlation.png" alt="Correlation Image" width="400" height="320" style="margin-left: 9px;">
-  <img src="images/Correlation.png" alt="Cases Image" width="400" height="320">
+  <img src="images/Correlation.png" alt="Correlation Image" width="400" height="320">
+  <img src="images/Cases.png" alt="Cases Image" width="400" height="320">
 </p>
 
 
