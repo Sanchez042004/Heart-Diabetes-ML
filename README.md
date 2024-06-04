@@ -49,7 +49,6 @@ Then, the raw data was extracted from the collected sources, encompassing patien
 
 For example this is an extract code for heart disease:
 ```python
-# Extract feature importances from the trained model
 feature_importances = rf_classifier.feature_importances_
 feature_importances_df = pd.DataFrame({'Feature': X.columns, 'Importances':feature_importances})
 feature_importances_df = feature_importances_df.sort_values(by="Importances", ascending=False)
@@ -83,7 +82,6 @@ Following the ETL process, the preprocessed data underwent normalization to ensu
 To evaluate the performance of our models accurately, I split the dataset into training and testing sets. Typically, 70-80% of the data was allocated for training, while the remaining 20-30% was reserved for testing.
 
 ```python
-# Split the dataset into training and testing sets
 x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
 ```
 
@@ -94,7 +92,6 @@ x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_s
 I carefully selected appropriate algorithms, including decision trees and logistic regression, after thorough testing to determine the models that best fit our dataset. Various parameters were fine-tuned to enhance model performance.
 
 ```python
-# Logistic Regression Classifier implementation
 from sklearn.linear_model import LogisticRegression
 logistic_classifier = LogisticRegression()
 logistic_classifier.fit(x_train, y_train)
@@ -107,7 +104,6 @@ Random Forest is a powerful ensemble learning method that combines multiple deci
 In this context, Random Forest is employed to predict heart disease based on patient attributes. The model is trained on a dataset comprising various patient features like age, sex, chest pain type, and more. Random Forest utilizes these features to learn patterns and relationships within the data, enabling it to make accurate predictions regarding the presence or absence of heart disease for new patient data.
 
 ```python
-# Random Forest Classifier implementation
 from sklearn.ensemble import RandomForestClassifier
 rf_classifier = RandomForestClassifier()
 rf_classifier.fit(x_train, y_train)
@@ -118,7 +114,6 @@ rf_classifier.fit(x_train, y_train)
 This Jupyter notebook outlines an analytical exploration of diabetes prediction using Support Vector Machine (SVM). It initiates by preparing the dataset, extracting relevant features while ensuring data integrity by handling missing values appropriately.
 
 ```python
-# Instantiate and train a Support Vector Machine (SVM) model with a linear kernel
 model = SVC(kernel='linear', C=1.0, random_state=42)
 ```
 
@@ -126,12 +121,10 @@ model = SVC(kernel='linear', C=1.0, random_state=42)
 The notebook then provides an interactive interface for users to input patient-specific health parameters. Leveraging the trained XG Boost or KNN model, the notebook predicts whether the patient is likely to have diabetes based on the input data.
 
 ```python
-# Instantiate and train a XG Boost model
 model = xgb.XGBClassifier(random_state=42)
 ```
 
 ```python
-# Instantiate and train a KNN model
 model = KNeighborsClassifier()
 ```
 
