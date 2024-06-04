@@ -66,7 +66,7 @@ Subsequently, I used the Matplotlib library to generate graphs and visualization
 
 <p align="center">
   <img src="images/Correlation.png" alt="Correlation Image" width="400" height="320">
-  <img src="images/Cases.png" alt="Cases Image" width="400" height="320">
+  <img src="images/casesBMI.png" alt="Cases Image" width="400" height="320">
 </p>
 
 
