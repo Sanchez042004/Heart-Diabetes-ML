@@ -5,7 +5,7 @@ Machine learning presents an extraordinary opportunity to elevate healthcare sta
 ## Data Collection
 
 To begin the process, we collected extensive patient data and outcomes from various medical records and health databases. These datasets, obtained from sources like Kaggle and Google, provided a diverse range of information crucial for training robust machine learning models.
-<img src="ETL.jpg" alt="ETL Process Image" width="300" height="200">
+<img src="ETL.jpg" alt="ETL Process Image" width="700" height="400">
 ## ETL Process: Extract, Transform, Load
 
 ### Extract
