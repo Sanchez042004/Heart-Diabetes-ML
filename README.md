@@ -150,6 +150,18 @@ Enter ST Slope (Up/Flat/Down): Down
 ¡Heart Disease Detected!
 ```
 
+```markdown
+Patient data:
+Pregnancies: 3.0
+Glucose: 148.0
+BloodPressure: 66.0
+SkinThickness: 0.0
+Insulin: 0.0
+BMI: 33.8
+DiabetesPedigreeFunction: 0.87
+Age: 50
+Diabetes Detected
+```
 ## Main Causes of Heart Disease & Diabetes
 
 Understanding the primary risk factors for heart disease and diabetes is crucial for effective prevention and management:
