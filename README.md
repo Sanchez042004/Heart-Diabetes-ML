@@ -28,6 +28,16 @@ The ETL (Extract, Transform, Load) process is a critical step in preparing data 
 Initially, I extracted raw data from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes. 
 
 For example this is an extract code for heart disease:
+```python
+heart_disease_counts.plot(kind="bar", stacked=True)
+plt.title("Heart Disease Cases by Age Group & Gender")
+plt.xlabel("Age Group")
+plt.ylabel("Number of Cases")
+plt.xticks(rotation=45)
+plt.legend(title="Gender")
+plt.tight_layout()
+plt.show()
+```
 <p align="center">
   <img src="images/Extract1.png" alt="E1 Image" width="700" height="380">
 </p>
