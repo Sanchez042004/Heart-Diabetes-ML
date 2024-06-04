@@ -28,7 +28,7 @@ Initially, I extracted raw data from the collected sources, encompassing patient
 The extracted data then underwent rigorous transformation processes. This involved cleaning the data by handling missing values and removing irrelevant information. Additionally, I converted categorical data into numerical format for effective analysis.
 
 <p align="center">
-  <img src="images/Correlation.png" alt="Correaltion Image" width="700" height="320">
+  <img src="images/Correlation.png" alt="Correlation Image" width="500" height="320">
 </p>
 
 ### Load
