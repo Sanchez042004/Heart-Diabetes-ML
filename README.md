@@ -18,6 +18,8 @@ To begin the process, I collected extensive patient data and outcomes from vario
 
 ## ETL Process: Extract, Transform, Load
 
+The ETL (Extract, Transform, Load) process is a critical step in preparing data for machine learning and analysis. It begins with extracting raw data from various sources, followed by transforming this data through cleaning and conversion processes to ensure it is suitable for analysis. 
+
 <p class="imagenes" align="center">
   <img src="images/ETL.jpg" alt="ETL Process Image" width="700" height="320">
 </p>
