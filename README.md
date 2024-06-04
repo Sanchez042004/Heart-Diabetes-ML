@@ -27,12 +27,13 @@ Initially, I extracted raw data from the collected sources, encompassing patient
 ### Transform
 The extracted data then underwent rigorous transformation processes. This involved cleaning the data by handling missing values and removing irrelevant information. Additionally, I converted categorical data into numerical format for effective analysis.
 
-<p align="center">
-  <img src="images/Correlation.png" alt="Correlation Image" width="400" height="320">
-</p>
-
 ### Load
 Once transformed, the processed data was loaded into the machine learning pipeline, ready for further processing and model development.
+
+<p align="center">
+  <img src="images/Correlation.png" alt="Correlation Image" width="400" height="320" style="margin-right: 10px;">
+  <img src="images/Correlation.png" alt="Second Image" width="400" height="320">
+</p>
 
 ## Data Preprocessing
 
