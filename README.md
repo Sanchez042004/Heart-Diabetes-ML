@@ -62,6 +62,11 @@ Following the ETL process, the preprocessed data underwent normalization to ensu
 
 To evaluate the performance of our models accurately, I split the dataset into training and testing sets. Typically, 70-80% of the data was allocated for training, while the remaining 20-30% was reserved for testing.
 
+```python
+# Split the dataset into training and testing sets
+x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
+```
+
 ## Algorithm Selection
 
 ### Logistic Regression
@@ -86,6 +91,28 @@ In this context, Random Forest is employed to predict heart disease based on pat
 from sklearn.ensemble import RandomForestClassifier
 rf_classifier = RandomForestClassifier()
 rf_classifier.fit(x_train, y_train)
+```
+
+### Support Vector Machine
+
+This Jupyter notebook outlines an analytical exploration of diabetes prediction using Support Vector Machine (SVM). It initiates by preparing the dataset, extracting relevant features while ensuring data integrity by handling missing values appropriately.
+
+```python
+# Instantiate and train a Support Vector Machine (SVM) model with a linear kernel
+model = SVC(kernel='linear', C=1.0, random_state=42)
+```
+
+### XG Boost and KNN
+The notebook then provides an interactive interface for users to input patient-specific health parameters. Leveraging the trained XG Boost or KNN model, the notebook predicts whether the patient is likely to have diabetes based on the input data.
+
+```python
+# Instantiate and train a XG Boost model
+model = xgb.XGBClassifier(random_state=42)
+```
+
+```python
+# Instantiate and train a KNN model
+model = KNeighborsClassifier()
 ```
 
 ## Disease Detection
