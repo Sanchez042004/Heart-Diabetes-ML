@@ -35,7 +35,7 @@ The extracted data then underwent rigorous transformation processes. This involv
 
 
 ### Load
-Once transformed, the processed data was loaded into the machine learning pipeline, ready for further processing and model development. To perform the loading process, Docker can be used for containers, and the file can be hosted in a database within the container.
+Once transformed, the processed data was loaded into the machine learning pipeline, ready for further processing and model development. To perform the loading process, Docker can be used for containers, and the file can be hosted in a database within the container. Additionally, Power BI can be used to visualize the data.
 
 
 ## Data Preprocessing
