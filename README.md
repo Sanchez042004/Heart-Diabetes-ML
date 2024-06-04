@@ -91,3 +91,13 @@ I employed the following tools and environment for our machine learning project:
 - **Integrated Development Environments (IDEs):**
   - Visual Studio Code
   - Jupyter Notebook
+<style>
+/* Estilos para dispositivos con una pantalla de 768px o menos */
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+</style>
+
