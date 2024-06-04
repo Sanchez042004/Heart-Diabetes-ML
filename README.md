@@ -27,7 +27,7 @@ The ETL (Extract, Transform, Load) process is a critical step in preparing data 
 ### Extract
 Initially, I extracted raw data from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes. 
 
-For example:
+For example this is an extract code for heart disease:
 <p align="center">
   <img src="images/Extract1.png" alt="E1 Image" width="700" height="380">
 </p>
