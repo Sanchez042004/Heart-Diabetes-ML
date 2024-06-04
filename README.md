@@ -32,7 +32,7 @@ Once transformed, the processed data was loaded into the machine learning pipeli
 
 <p align="center">
   <img src="images/Correlation.png" alt="Correlation Image" width="400" height="320" style="margin-right: 3px;">
-  <img src="images/Cases.png" alt="Cases Image" width="400" height="320">
+  <img src="images/Correlation.png" alt="Cases Image" width="400" height="320">
 </p>
 
 
