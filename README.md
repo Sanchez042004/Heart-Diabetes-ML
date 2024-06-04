@@ -70,7 +70,7 @@ I carefully selected appropriate algorithms, including decision trees and logist
 
 Utilizing the trained models, I implemented disease detection algorithms capable of accurately identifying heart diseases or diabetes based on new patient data.
 
-```python
+```console
 Randomly Generated Patient Data: 
 Age = 57
 Sex = F
