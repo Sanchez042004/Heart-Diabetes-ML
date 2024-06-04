@@ -18,7 +18,7 @@ Initially, we extracted raw data from the collected sources, encompassing patien
 </p>
 
 <p align="center">
-  <img src="Kaggle Diabetes.png" alt="Kaggle Diabetes Image" width="700" height="300">
+  <img src="Kaggle Diabetes.png" alt="Kaggle Diabetes Image" width="700" height="270">
 </p>
 ### Transform
 The extracted data then underwent rigorous transformation processes. This involved cleaning the data by handling missing values and removing irrelevant information. Additionally, we converted categorical data into numerical format for effective analysis.
