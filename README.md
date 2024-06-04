@@ -66,12 +66,21 @@ To evaluate the performance of our models accurately, I split the dataset into t
 
 I carefully selected appropriate algorithms, including decision trees and logistic regression, after thorough testing to determine the models that best fit our dataset. Various parameters were fine-tuned to enhance model performance.
 
-```jupyter
+```python
 x = pd.get_dummies(x, columns=categories.keys())
 x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
 logistic_classifier = LogisticRegression()
 logistic_classifier.fit(x_train, y_train)
 ```
+This code processes patient input for a machine learning model. It collects patient data, converts it into a DataFrame, and transforms categorical variables into dummy variables. Then, it identifies any features missing from the patient data but present in the training data to ensure consistency for accurate model predictions.
+
+```python
+patient_data = get_user_input()
+patient_df = pd.DataFrame([patient_data])
+patient_data = pd.get_dummies(patient_df, columns = categories.keys())
+missing_features = set(x_train.columns) - set(patient_df.columns)
+```
+
 
 ## Disease Detection
 
