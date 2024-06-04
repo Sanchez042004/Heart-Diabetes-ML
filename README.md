@@ -1,4 +1,4 @@
-# Detecting Heart Disease & Diabetes with Machine Learning
+# Heart Disease & Diabetes with Machine Learning
 [![Pub](https://img.shields.io/badge/-Jupyter-F37626?style=plastic&logo=jupyter&logoColor=white)](https://pub.dev/packages/dart_code_linter)
 [![Pub](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)](https://pub.dev/packages/dart_code_linter)
 
