@@ -63,6 +63,3 @@ We employed the following tools and environment for our machine learning project
 - **Integrated Development Environments (IDEs):**
   - Visual Studio Code
   - Jupyter Notebook
-
-Jupyter Notebook played a significant role in our project, facilitating exploratory data analysis, model development, and documentation in an interactive and collaborative environment. Its ability to integrate code, visualizations, and explanatory text in a single document streamlined our workflow and enhanced the reproducibility of our analyses.
-
