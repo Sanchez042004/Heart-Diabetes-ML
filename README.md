@@ -24,8 +24,28 @@ The ETL (Extract, Transform, Load) process is a critical step in preparing data 
   <img src="images/ETL.jpg" alt="ETL Process Image" width="700" height="320">
 </p>
 
+### Installation
+Initially, we need to install all the project dependencies, these are:
+```python
+pip install pandas
+```
+```python
+pip install matplotlib
+```
+```python
+pip install seaborn
+```
+```python
+pip install scikit-learn
+```
+```python
+pip install numpy
+```
+```python
+pip install xgboost
+```
 ### Extract
-Initially, I extracted raw data from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes. 
+Then, the raw data was extracted from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes. 
 
 For example this is an extract code for heart disease:
 ```python
