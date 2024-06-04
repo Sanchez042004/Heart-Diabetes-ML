@@ -6,14 +6,14 @@ Machine learning presents an extraordinary opportunity to elevate healthcare sta
 
 ## Data Collection
 
-To begin the process, I collected extensive patient data and outcomes from various medical records and health databases. These datasets, obtained from sources like Kaggle and Google, provided a diverse range of information crucial for training robust machine learning models.
+To begin the process, were collected extensive patient data and outcomes from various medical records and health databases. These datasets, obtained from sources like Kaggle and Google, provided a diverse range of information crucial for training robust machine learning models.
 
 <p align="center">
-  <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" width="700" height="320">
+  <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" style="max-width: 100%; height: auto;">
 </p>
 
 <p align="center">
-  <img src="images/Kaggle Diabetes.png" alt="Kaggle Diabetes Image" width="700" height="270">
+  <img src="images/Kaggle Diabetes.png" alt="Kaggle Diabetes Image" style="max-width: 100%; height: auto;">
 </p>
 
 ## ETL Process: Extract, Transform, Load
@@ -60,7 +60,7 @@ print(feature_importances_df)
 ### Transform
 The extracted data was then subjected to rigorous transformation processes. This involved cleaning the data by handling missing values ​​and removing irrelevant information. Additionally, I converted categorical data to numerical format for effective analysis. 
 
-Subsequently, I used the Matplotlib library to generate graphs and visualizations from the numerical data, allowing for better understanding and analysis of the information.
+Subsequently, was used the Matplotlib library to generate graphs and visualizations from the numerical data, allowing for better understanding and analysis of the information.
 
 
 <p align="center">
@@ -79,7 +79,7 @@ Following the ETL process, the preprocessed data underwent normalization to ensu
 
 ## Data Splitting
 
-To evaluate the performance of our models accurately, I split the dataset into training and testing sets. Typically, 70-80% of the data was allocated for training, while the remaining 20-30% was reserved for testing.
+To evaluate the performance of our models accurately, the dataset was divided into training and testing sets. Typically, 70-80% of the data was allocated for training, while the remaining 20-30% was reserved for testing.
 
 ```python
 x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
@@ -133,7 +133,7 @@ model = KNeighborsClassifier()
 
 ## Disease Detection
 
-Utilizing the trained models, I implemented disease detection algorithms capable of accurately identifying heart diseases or diabetes based on new patient data.
+Using the trained models, disease detection algorithms were implemented capable of accurately identifying heart disease or diabetes based on new patient data.
 
 ```markdown
 Enter age: 30
