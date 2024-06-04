@@ -8,13 +8,13 @@ Machine learning presents an extraordinary opportunity to elevate healthcare sta
 
 To begin the process, were collected extensive patient data and outcomes from various medical records and health databases. These datasets, obtained from sources like Kaggle and Google, provided a diverse range of information crucial for training robust machine learning models.
 
-<p align="center">
-  <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" style="max-width: 100%; height: auto;">
-</p>
+<div style="text-align: center;">
+  <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" style="width: 100%; max-width: 700px; height: auto;">
+</div>
 
-<p align="center">
-  <img src="images/Kaggle Diabetes.png" alt="Kaggle Diabetes Image" style="max-width: 100%; height: auto;">
-</p>
+<div style="text-align: center;">
+  <img src="images/Kaggle Diabetes.png" alt="Kaggle Diabetes Image" style="width: 100%; max-width: 700px; height: auto;">
+</div>
 
 ## ETL Process: Extract, Transform, Load
 
