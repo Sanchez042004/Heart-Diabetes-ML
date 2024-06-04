@@ -39,7 +39,8 @@ plt.tight_layout()
 plt.show()
 ```
 ### Transform
-The extracted data was then subjected to rigorous transformation processes. This involved cleaning the data by handling missing values ​​and removing irrelevant information. Additionally, I converted categorical data to numerical format for effective analysis. Subsequently, I used the Matplotlib library to generate graphs and visualizations from the numerical data, allowing for better understanding and analysis of the information.
+The extracted data was then subjected to rigorous transformation processes. This involved cleaning the data by handling missing values ​​and removing irrelevant information. Additionally, I converted categorical data to numerical format for effective analysis. 
+Subsequently, I used the Matplotlib library to generate graphs and visualizations from the numerical data, allowing for better understanding and analysis of the information.
 
 
 <p align="center">
