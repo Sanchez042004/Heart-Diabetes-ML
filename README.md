@@ -8,17 +8,17 @@ To begin the process, we collected extensive patient data and outcomes from vari
 
 ## ETL Process: Extract, Transform, Load
 <p align="center">
-  <img src="ETL.jpg" alt="ETL Process Image" width="700" height="300">
+  <img src="images/ETL.jpg" alt="ETL Process Image" width="700" height="300">
 </p>
 
 ### Extract
 Initially, we extracted raw data from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes.
 <p align="center">
-  <img src="Kaggle Heart.png" alt="Kaggle Heart Image" width="700" height="300">
+  <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" width="700" height="300">
 </p>
 
 <p align="center">
-  <img src="Kaggle Diabetes.png" alt="Kaggle Diabetes Image" width="700" height="270">
+  <img src="images/Kaggle Diabetes.png" alt="Kaggle Diabetes Image" width="700" height="270">
 </p>
 
 ### Transform
