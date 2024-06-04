@@ -4,7 +4,7 @@ Machine learning presents an extraordinary opportunity to elevate healthcare sta
 
 ## Data Collection
 
-To begin the process, we collected extensive patient data and outcomes from various medical records and health databases. These datasets, obtained from sources like Kaggle and Google, provided a diverse range of information crucial for training robust machine learning models.
+To begin the process, I collected extensive patient data and outcomes from various medical records and health databases. These datasets, obtained from sources like Kaggle and Google, provided a diverse range of information crucial for training robust machine learning models.
 
 ## ETL Process: Extract, Transform, Load
 <p align="center">
@@ -12,7 +12,7 @@ To begin the process, we collected extensive patient data and outcomes from vari
 </p>
 
 ### Extract
-Initially, we extracted raw data from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes.
+Initially, I extracted raw data from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes.
 <p align="center">
   <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" width="700" height="300">
 </p>
@@ -22,7 +22,7 @@ Initially, we extracted raw data from the collected sources, encompassing patien
 </p>
 
 ### Transform
-The extracted data then underwent rigorous transformation processes. This involved cleaning the data by handling missing values and removing irrelevant information. Additionally, we converted categorical data into numerical format for effective analysis.
+The extracted data then underwent rigorous transformation processes. This involved cleaning the data by handling missing values and removing irrelevant information. Additionally, I converted categorical data into numerical format for effective analysis.
 
 ### Load
 Once transformed, the processed data was loaded into the machine learning pipeline, ready for further processing and model development.
@@ -33,15 +33,15 @@ Following the ETL process, the preprocessed data underwent normalization to ensu
 
 ## Data Splitting
 
-To evaluate the performance of our models accurately, we split the dataset into training and testing sets. Typically, 70-80% of the data was allocated for training, while the remaining 20-30% was reserved for testing.
+To evaluate the performance of our models accurately, I split the dataset into training and testing sets. Typically, 70-80% of the data was allocated for training, while the remaining 20-30% was reserved for testing.
 
 ## Model Selection
 
-We carefully selected appropriate algorithms, including decision trees and logistic regression, after thorough testing to determine the models that best fit our dataset. Various parameters were fine-tuned to enhance model performance.
+I carefully selected appropriate algorithms, including decision trees and logistic regression, after thorough testing to determine the models that best fit our dataset. Various parameters were fine-tuned to enhance model performance.
 
 ## Disease Detection
 
-Utilizing the trained models, we implemented disease detection algorithms capable of accurately identifying heart diseases or diabetes based on new patient data.
+Utilizing the trained models, I implemented disease detection algorithms capable of accurately identifying heart diseases or diabetes based on new patient data.
 
 ## Main Causes of Heart Disease & Diabetes
 
@@ -55,7 +55,7 @@ Understanding the primary risk factors for heart disease and diabetes is crucial
 
 ## Tools & Environment
 
-We employed the following tools and environment for our machine learning project:
+I employed the following tools and environment for our machine learning project:
 
 - **Programming Language:** Python
   
