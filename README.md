@@ -29,19 +29,19 @@ First, we need to install all the project dependencies, these are:
 ```console
 pip install pandas
 ```
-```python
+```console
 pip install matplotlib
 ```
-```python
+```console
 pip install seaborn
 ```
-```python
+```console
 pip install scikit-learn
 ```
-```python
+```console
 pip install numpy
 ```
-```python
+```console
 pip install xgboost
 ```
 ### Extract
