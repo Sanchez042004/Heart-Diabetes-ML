@@ -9,7 +9,7 @@ Machine learning presents an extraordinary opportunity to elevate healthcare sta
 To begin the process, I collected extensive patient data and outcomes from various medical records and health databases. These datasets, obtained from sources like Kaggle and Google, provided a diverse range of information crucial for training robust machine learning models.
 
 <p align="center">
-  <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" width="700" height="320">
+  <img src="images/Kaggle Heart.png" alt="Kaggle Heart Image" width="700" height="420">
 </p>
 
 <p align="center">
