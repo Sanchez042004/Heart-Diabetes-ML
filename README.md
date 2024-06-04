@@ -63,11 +63,10 @@ The extracted data was then subjected to rigorous transformation processes. This
 Subsequently, was used the Matplotlib library to generate graphs and visualizations from the numerical data, allowing for better understanding and analysis of the information.
 
 
-<p align="center">
-  <img src="images/Correlation.png" alt="Correlation Image" width="400" height="320">
-  <img src="images/casesBMI.png" alt="Cases Image" width="400" height="320">
-</p>
-
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+  <img src="images/Correlation.png" alt="Correlation Image" style="max-width: 100%; height: auto;">
+  <img src="images/casesBMI.png" alt="Cases Image" style="max-width: 100%; height: auto;">
+</div>
 
 ### Load
 Once transformed, the processed data was loaded into the machine learning pipeline, ready for further processing and model development. To perform the loading process, Docker can be used for containers, and the file can be hosted in a database within the container. Additionally, Power BI can be used to visualize the data.
