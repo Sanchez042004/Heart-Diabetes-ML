@@ -49,14 +49,14 @@ Then, the raw data was extracted from the collected sources, encompassing patien
 
 For example this is an extract code for heart disease:
 ```python
-heart_disease_counts.plot(kind="bar", stacked=True)
-plt.title("Heart Disease Cases by Age Group & Gender")
-plt.xlabel("Age Group")
-plt.ylabel("Number of Cases")
-plt.xticks(rotation=45)
-plt.legend(title="Gender")
-plt.tight_layout()
-plt.show()
+# Extract feature importances from the trained model
+feature_importances = rf_classifier.feature_importances_
+feature_importances_df = pd.DataFrame({'Feature': X.columns, 'Importances':feature_importances})
+feature_importances_df = feature_importances_df.sort_values(by="Importances", ascending=False)
+
+# Print the ranked list of features by their importances
+print("Ranked list of features by importances:")
+print(feature_importances_df)
 ```
 ### Transform
 The extracted data was then subjected to rigorous transformation processes. This involved cleaning the data by handling missing values ​​and removing irrelevant information. Additionally, I converted categorical data to numerical format for effective analysis. 
