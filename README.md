@@ -66,23 +66,30 @@ To evaluate the performance of our models accurately, I split the dataset into t
 
 I carefully selected appropriate algorithms, including decision trees and logistic regression, after thorough testing to determine the models that best fit our dataset. Various parameters were fine-tuned to enhance model performance.
 
+```jupyter
+x = pd.get_dummies(x, columns=categories.keys())
+x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
+logistic_classifier = LogisticRegression()
+logistic_classifier.fit(x_train, y_train)
+```
+
 ## Disease Detection
 
 Utilizing the trained models, I implemented disease detection algorithms capable of accurately identifying heart diseases or diabetes based on new patient data.
 
 ```markdown
-Enter age: 35
+Enter age: 30
 Enter sex (M/F): M
-Enter chest pain type (ATA/NAP/ASY/TA): ATA
-Enter resting blood pressure: 160
-Enter cholesterol: 211
+Enter chest pain type (ATA/NAP/ASY/TA): NAP
+Enter resting blood pressure: 180
+Enter cholesterol: 130
 Enter fasting blood sugar: 1
-Enter resting ECG (Normal/ST/LVH): ST
-Enter max heart rate: 115
-Enter exercise angina (N/Y): N
-Enter oldpeak: 2.6
+Enter resting ECG (Normal/ST/LVH): Normal
+Enter max heart rate: 75
+Enter exercise angina (N/Y): Y
+Enter oldpeak: 1.3
 Enter ST Slope (Up/Flat/Down): Down
-Heart Disease Detected
+¡Heart Disease Detected!
 ```
 
 ## Main Causes of Heart Disease & Diabetes
