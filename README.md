@@ -29,7 +29,7 @@ Initially, I extracted raw data from the collected sources, encompassing patient
 
 For example:
 <p align="center">
-  <img src="images/Extract1.png" alt="E1 Image" width="700" height="420">
+  <img src="images/Extract1.png" alt="E1 Image" width="700" height="380">
 </p>
 
 ### Transform
