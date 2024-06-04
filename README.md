@@ -64,23 +64,29 @@ To evaluate the performance of our models accurately, I split the dataset into t
 
 ## Model Selection
 
+### Logistic Regression
+
 I carefully selected appropriate algorithms, including decision trees and logistic regression, after thorough testing to determine the models that best fit our dataset. Various parameters were fine-tuned to enhance model performance.
 
 ```python
-x = pd.get_dummies(x, columns=categories.keys())
-x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
+# Logistic Regression Classifier implementation
+from sklearn.linear_model import LogisticRegression
 logistic_classifier = LogisticRegression()
 logistic_classifier.fit(x_train, y_train)
 ```
-This code processes patient input for a machine learning model. It collects patient data, converts it into a DataFrame, and transforms categorical variables into dummy variables. Then, it identifies any features missing from the patient data but present in the training data to ensure consistency for accurate model predictions.
+
+### Random Forest
+
+Random Forest is a powerful ensemble learning method that combines multiple decision trees to make predictions. It's highly versatile and widely used in classification and regression tasks due to its robustness and ability to handle large datasets with high dimensionality. 
+
+In this context, Random Forest is employed to predict heart disease based on patient attributes. The model is trained on a dataset comprising various patient features like age, sex, chest pain type, and more. Random Forest utilizes these features to learn patterns and relationships within the data, enabling it to make accurate predictions regarding the presence or absence of heart disease for new patient data.
 
 ```python
-patient_data = get_user_input()
-patient_df = pd.DataFrame([patient_data])
-patient_data = pd.get_dummies(patient_df, columns = categories.keys())
-missing_features = set(x_train.columns) - set(patient_df.columns)
+# Random Forest Classifier implementation
+from sklearn.ensemble import RandomForestClassifier
+rf_classifier = RandomForestClassifier()
+rf_classifier.fit(x_train, y_train)
 ```
-
 
 ## Disease Detection
 
