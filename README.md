@@ -5,7 +5,13 @@
 git clone https://github.com/Sanchez042004/Heart-Diabetes-ML
 cd Heart-Diabetes-ML
 ```
-2. Install all the dependencies in the root folder of the project, these are:
+2. Install all the dependencies in the root folder of the project, to find where the repository was cloned in the terminal write:
+
+```console
+pwd
+```
+
+The dependencies are:
 
 ```console
 pip install pandas
