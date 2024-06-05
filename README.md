@@ -34,8 +34,6 @@ pip install xgboost
 3. Run any Jupyter notebook to see the different analyzes of the data.
 
 # Heart Disease & Diabetes with Machine Learning
-[![Pub](https://img.shields.io/badge/-Jupyter-F37626?style=plastic&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Pub](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)](https://www.python.org/)
 
 Machine learning presents an extraordinary opportunity to elevate healthcare standards by enabling early disease detection. By developing precise models for identifying heart disease and diabetes, we can initiate timely interventions, personalized treatment plans, and proactively manage health concerns.
 
