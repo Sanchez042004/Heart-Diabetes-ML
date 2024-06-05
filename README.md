@@ -11,27 +11,12 @@ cd Heart-Diabetes-ML
 pwd
 ```
 
-The dependencies are:
+3. Install project dependencies:
+```
+pip install -r requirements.txt
+```
 
-```console
-pip install pandas
-```
-```console
-pip install matplotlib
-```
-```console
-pip install seaborn
-```
-```console
-pip install scikit-learn
-```
-```console
-pip install numpy
-```
-```console
-pip install xgboost
-```
-3. Run any Jupyter notebook to see the different analyzes of the data.
+4. Run any Jupyter notebook to see the different analyzes of the data.
 
 # Heart Disease & Diabetes with Machine Learning
 
