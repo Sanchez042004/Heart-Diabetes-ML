@@ -25,6 +25,7 @@ pip install numpy
 ```console
 pip install xgboost
 ```
+3. Run any Jupyter notebook to see the different analyzes of the data.
 
 # Heart Disease & Diabetes with Machine Learning
 [![Pub](https://img.shields.io/badge/-Jupyter-F37626?style=plastic&logo=jupyter&logoColor=white)](https://jupyter.org/)
