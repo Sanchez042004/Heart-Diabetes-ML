@@ -2,6 +2,34 @@
 [![Pub](https://img.shields.io/badge/-Jupyter-F37626?style=plastic&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Pub](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)](https://www.python.org/)
 
+### How to use
+
+1. Clone this repository to your local machine and then go to in it:
+```
+git clone https://github.com/Sanchez042004/Heart-Diabetes-ML
+cd Heart-Diabetes-ML
+```
+2. Install all the dependencies in the root folder of the project, these are:
+
+```console
+pip install pandas
+```
+```console
+pip install matplotlib
+```
+```console
+pip install seaborn
+```
+```console
+pip install scikit-learn
+```
+```console
+pip install numpy
+```
+```console
+pip install xgboost
+```
+
 Machine learning presents an extraordinary opportunity to elevate healthcare standards by enabling early disease detection. By developing precise models for identifying heart disease and diabetes, we can initiate timely interventions, personalized treatment plans, and proactively manage health concerns.
 
 ## Data Collection
@@ -24,26 +52,6 @@ The ETL (Extract, Transform, Load) process is a critical step in preparing data 
   <img src="images/ETL.jpg" alt="ETL Process Image" style="max-width: 100%; height: auto;">
 </p>
 
-### Installation
-First, we need to install all the dependencies in the root folder of the project, these are:
-```console
-pip install pandas
-```
-```console
-pip install matplotlib
-```
-```console
-pip install seaborn
-```
-```console
-pip install scikit-learn
-```
-```console
-pip install numpy
-```
-```console
-pip install xgboost
-```
 ### Extract
 Then, the raw data was extracted from the collected sources, encompassing patient demographics, medical history, diagnostic tests, and disease outcomes. 
 
