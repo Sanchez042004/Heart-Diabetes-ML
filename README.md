@@ -1,4 +1,4 @@
-## How to use uwu
+## How to use
 
 1. Clone this repository to your local machine and then go to in it:
 ```
